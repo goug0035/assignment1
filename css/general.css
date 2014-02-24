@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-size: 100%;
+    font-family: "Bodoni MT", Didot, Times, serif;
+    background-image: url(../images/barrel.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    margin: 1rem auto; 
+    border: none;
+}
+
+img {
+    margin:  auto;
+    display: block;
+    border: solid .35rem #996600;
+    border-radius: 1.25rem;
+    position: center;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.eyes {
+    overflow: hidden;
+    background-image: url(../images/eyes.jpg);
+    background-size:  27rem;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Century Gothic", "Optima", sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0 0 1.5rem;
+    padding: .5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0 0 1.5rem;
+    line-height: 1.75rem;
+    border-color: silver;
+    border-top: solid .5rem;
+    border-bottom: solid .5rem;
+    background-color: rgba(100, 67, 0, .8);
+    padding: .5rem;
+}
+
+p {
+    background-color: gray;
+    line-height: 1.5rem;
+    margin: 1rem;
+    padding: .5rem;
+}
+        
+.dropcap:first-letter {
+    font-size: 4.8rem;
+    font-weight: bold;
+    float: left;
+    margin: 1.7rem .5rem 1rem 0;
+    color: #996600;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+}
+
+figcaption {
+    font-size: .75rem;
+    padding: .5rem 5%;
+    background-color: #996600;
+    border: solid #996600;
+    border-radius: 1.25rem;
+}
+    
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: .875rem;
+    font-family: "Courier New", "Lucida Sans Typewriter", monospace;
+}
+
+blockquote span {
+    font-weight: bold;
+    font-size: 1rem;
+    float: right;
+    color: #996600;
+    outline-color: black;
+    margin: .5rem
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 2rem;
+    color: #996600;
+    float: left;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 2rem;
+    position: absolute;
+    color: #996600;
+}
+
+details {
+    font-size: 1.2rem;
+    margin: 1.5rem 1rem;
+    color: #996600;
+}
+
+summary {
+    font-weight: bold;
+}
+
+ul {
+    margin:0 0 1.5rem;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+footer p {
+    color: white;
+    margin: .5rem 5% .5rem;
+    font-size: .75rem;
+}    
+
+footer a {
+    color: white;
+}        
