@@ -16,7 +16,6 @@ html {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
     font-size: 100%;
     font-family: "Bodoni MT", Didot, Times, serif;
     background-image: url(../images/barrel.jpg);
@@ -99,7 +98,7 @@ figcaption {
     font-size: .75rem;
     padding: .5rem 5%;
     background-color: #996600;
-    border: solid #996600;
+    border: solid;
     border-radius: 1.25rem;
 }
     
